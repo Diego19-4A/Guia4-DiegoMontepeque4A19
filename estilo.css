@@ -1,0 +1,50 @@
+/* Reset de márgenes y fuente */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ff6000; 
+    color: #212529;
+    margin: 20;
+    padding: 40;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h2 {
+    font-weight: bold;
+    color: #0d6efd; 
+}
+
+/* Carrusel */
+#carousel img {
+    border-radius: 20px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Formularios */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Espaciado entre secciones */
+section {
+    margin-bottom: 60px;
+}
+
